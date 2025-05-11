@@ -2,9 +2,7 @@
 .header {}
 
 .container {
-  width: 1150px;
-  padding: 0 20px;
-  margin: 0 auto;
+
 }
 
 .header-container {
@@ -25,6 +23,10 @@
   line-height: 1;
   color: #173a56;
   margin-right: 237px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
 }
 
 .list-navigation {
