@@ -1,0 +1,27 @@
+/* #region customer */
+
+.customer {
+    padding: 50px 0;
+}
+
+.customer-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 94px;
+}
+
+.customer-main-text {}
+
+.customer-subtitle {}
+
+.customer-title {}
+
+.customer-title-descr {}
+
+.customer-list {}
+
+.customer-list-item {}
+
+.customer-item-descr {}
+
+/* #endregion customer*/

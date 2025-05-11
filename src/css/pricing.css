@@ -1,0 +1,200 @@
+/* #region  pricing*/
+.pricing {
+    padding: 100px 0;
+}
+
+
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+}
+
+.price-title-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.price-list {
+    display: flex;
+    gap: 72px;
+}
+
+.price-item {
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    width: calc((100% - 72px * 2)/3);
+    padding: 32px 71px;
+    transition: transform 0.25s;
+}
+
+.price-item:nth-child(2) {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background: #02897a;
+}
+
+
+
+
+
+.price-item-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #22343d;
+    /* line-height: 40px; */
+    line-height: 1.66667;
+
+}
+
+
+.price-item-title-descr {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    /* line-height: 40px; */
+    line-height: 2.5;
+    color: #22343d;
+}
+
+.price-number {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    color: #02897a;
+    /* line-height: 100px; */
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.price-number:hover,
+.price-number:focus {
+    transform: scale(1);
+    animation: slow-rotate 500ms linear infinite;
+
+    /* обертає елемент на 45 градусів */
+
+
+}
+
+@keyframes slow-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) scale(4);
+    }
+}
+
+.priscing-wrap {
+    display: flex;
+}
+
+.price-valute {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #02897a;
+    /* line-height: 30px; */
+    line-height: 1.25;
+    letter-spacing: 0em;
+
+}
+
+.price-period {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343d;
+    /* line-height: 19px; */
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+}
+
+.price-list-points {}
+
+.price-points-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 22px; */
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+
+}
+
+
+.item-operations,
+.item-notifications,
+.item-landing {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 22px; */
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.standart {
+    color: #fff;
+}
+
+.price-btn {
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background: #02897a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.price-btn:hover,
+.price-btn:focus {
+    color: #02897a;
+    background: #fff;
+    border: 2px dashed #02897a;
+    transform: scale(2, 2) translate3d(12px, 50%, 3em) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    box-shadow: 8px -5px 2px 2px rgba(97, 230, 57, 0.607);
+}
+
+.standart-btn {
+    color: #02897a;
+    background: #fff;
+}
+
+.standart-btn:hover,
+.standart-btn:focus {
+
+
+    border: 2px dashed #02897a;
+    transform: scale(2, 2) translate3d(12px, 50%, 3em) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    box-shadow: 8px -5px 2px 2px rgba(97, 230, 57, 0.607);
+}
+
+
+.price-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+/* #endregion pricing */

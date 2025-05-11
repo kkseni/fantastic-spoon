@@ -1,0 +1,28 @@
+/* #region managament */
+.management {
+padding-top: 91px;
+padding-bottom: 50px;
+}
+
+.management-wrap {
+display: flex;
+gap: 84px;
+}
+
+.managament-main-text {}
+
+.management-subtitle {}
+
+.management-title {}
+
+.management-title-descr {}
+
+.management-list {}
+
+.management-list-item {}
+
+.management-item-title {}
+
+.management-item-subtitle {}
+
+/* #endregion managament*/

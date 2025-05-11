@@ -1,0 +1,27 @@
+/* #region collaborative */
+.collaborative {
+    padding: 50px 0 75px;
+}
+
+.collaborative-wrap {
+    display: flex;
+    gap: 84px;
+}
+
+.collaborative-main-text {}
+
+.collaborative-subtitle {}
+
+.collaborative-title {}
+
+.collaborative-title-descr {}
+
+.collaborative-list {}
+
+.collaborative-list-item {}
+
+.collaborative-item-title {}
+
+.collaborative-item-descr {}
+
+/* #endregion collaborative*/

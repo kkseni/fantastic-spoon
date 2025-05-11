@@ -1,0 +1,19 @@
+/* #region strategy*/
+
+.strategy {}
+
+.container {}
+
+.strategy-title {}
+
+.strategy-title-descr {}
+
+.strategy-list {
+    display: flex;
+}
+
+.strategy-list-item {}
+
+.strategy-item-descr {}
+
+/* #endregion strategy*/
