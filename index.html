@@ -6,104 +6,376 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/fantastic-spoon/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/fantastic-spoon/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/fantastic-spoon/assets/styles-DSr18Ufq.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/fantastic-spoon/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <!-- #region header -->
+<header class="header">
+  <div class="container header-container">
+    <nav class="navigation">
+      <a href="./index.html" class="header-logo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAkCAMAAADM4ogkAAAAt1BMVEUAAAABvWsCW4ECumkBvGsAWIAAlXMAiHkAvWoDW4EDWYAAuWkAXYACiXoBiXoCWoECh3oAh3gAh3gAizQDW4ECW4EDWoECiHkCWX8BiXoBiXkCW4ABiHkDWoEAu2kDWoACvGsCiXoCinoCvGsCWoABu2wAjzgCjjYBjjcBvGsBjjcBvGoCiXkCjjYCiHoEWoACvGwCjjcCXIMCu2sAVYAAumUAjzgAhzgCvGsDW4ECiXoCjjcCn0pyW+amAAAAOHRSTlMA39+AvyAQH2C/QB8Q79+ggGBAQO/Pr5Bwv7CAcGBAMO/Pn5+QUBDv38+/r6Cgn5CQkH9wMDAgIMRoTG4AAAFWSURBVDjLjZTXdoJQEEW3SBEpCcbeY0vvDTD//12JDFwbIvt5rzNr5tx1OYNhG5TB0CLNLedFkV3K29DlHK1ImFCEBRPxCoebM9+EbmrWT3vXcdwD2kWR4v0zBLe5jRzPdcW8+gVg+fEGz4KBiAtYhvvoDgxjYaYim1AJD5jWoJOaJiwk8pPwmDGmL+IQ6iJ288SKSSBiD1wRLwhzqGJ6sg4gNbao7vKQRkJfIq3slBr7vIppZus04EJms48josOlEge54rikaKZXJWd0ZZepeDr0jpYJc6hhieep12vniTrZwfuATG6TU4yDlVYYFFWoO+rcnqV2qR+Kdx9AIxaeVYNN+E2o1hKWDglyRd+CUfYmWCdcodiagQTK5FxRzA7wLp7GSZHgEbVyNCoQ5UvZBnJTINo7gbxtvFuKEl8AWD2t1/ffFJjqg1z9cBKjFWkGZXDtCQl/WwiKifroZq4AAAAASUVORK5CYII=" alt="logo" /> Product</a>
+      <ul class="list-navigation">
+        <li class="list-navigation-item">
+          <a href="./index.html" class="list-navigation-link current">Product</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="list-navigation-item">
+          <a href="./pricing.html" class="list-navigation-link">Pricing</a>
+        </li>
+        <li class="list-navigation-item">
+          <a href="./customer.html" class="list-navigation-link">Customers</a>
+        </li>
+        <li class="list-navigation-item">
+          <a href="./resurses.html" class="list-navigation-link">Resources</a>
         </li>
       </ul>
     </nav>
-  </div>
-</header>
-
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/fantastic-spoon/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
-
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <ul class="header-list-buttons">
+      <li class="header-list-btn-item">
+        <button type="button" class="header-list-btn sign-in">
+          Sign In
+        </button>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="header-list-btn-item">
+        <button type="button" class="header-list-btn sign-up">
+          Sign Up
+        </button>
       </li>
     </ul>
   </div>
-</article>
+</header>
+<!-- #endregion header -->
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <!-- #region hero -->
+<section class="hero">
+    <div class="container hero-wrap">
+        <div class="hero-main-text">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-title-descr">
+                Tools, tutorials, design and innovation experts, all in one place!
+                The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list-buttons">
+                <li class="hero-list-item">
+                    <button type="button" class="hero-list-btn started">
+                        Get started
+                    </button>
+                </li>
+                <li class="hero-list-item">
+                    <button type="button" class="hero-list-btn watch">
+                        Watch the Video
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <img src="/fantastic-spoon/assets/hero-img-DdM-fLDc.png" alt="hero" width="610" />
+    </div>
+</section>
+<!-- #endregion hero-->
+      <!-- #region Specifically -->
+<section class="specifically">
+  <div class="container">
+    <h2 class="specifically-title">
+      Product was Built Specifically for You
+    </h2>
+    <ul class="specifically-list">
+      <li class="specifically-list-item">
+        <div class="icon-box green">
+          <svg class="icons-specifically" width="16" height="18">
+            <use href="/fantastic-spoon/assets/symbols-vOQy1vd2.svg#coursor"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">First click tests</h3>
+        <p class="specifically-item-descr">
+          While most people enjoy casino gambling,
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box blue">
+          <svg class="icons-specifically" width="18" height="18">
+            <use href="/fantastic-spoon/assets/symbols-vOQy1vd2.svg#wave"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Design surveys</h3>
+        <p class="specifically-item-descr">
+          Sports betting, lottery and bingo playing for the fun
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box fiolet">
+          <svg class="icons-specifically" width="16" height="18">
+            <use href="/fantastic-spoon/assets/symbols-vOQy1vd2.svg#heart"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Preference tests</h3>
+        <p class="specifically-item-descr">
+          The Myspace page defines the individual.
+        </p>
+      </li>
+      <li class="specifically-list-item">
+        <div class="icon-box red">
+          <svg class="icons-specifically" width="14" height="18">
+            <use href="/fantastic-spoon/assets/symbols-vOQy1vd2.svg#clock"></use>
+          </svg>
+        </div>
+        <h3 class="specifically-item-subtitle">Five second tests</h3>
+        <p class="specifically-item-descr">
+          Personal choices and the overall personality of the person.
+        </p>
+      </li>
+    </ul>
+    <button type="button" class="specifically-btn">SIGN UP NOW</button>
+  </div>
+</section>
+<!-- #endregion Specifically -->
+      <!-- #region Management -->
+<section class="management">
+    <div class="container management-wrap">
+        <div class="managament-main-text">
+            <p class="management-subtitle">Effortless Validation for</p>
+            <h2 class="management-title">Management</h2>
+            <p class="management-title-descr">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+            </p>
+            <ul class="management-list">
+                <li class="management-list-item">
+                    <h3 class="management-item-title">Accessory makers</h3>
+                    <p class="management-item-subtitle">
+                        While most people enjoy casino gambling, sports betting,
+                        lottery and bingo playing for the fun
+                    </p>
+                </li>
+                <li class="management-list-item">
+                    <h3 class="management-item-title">Alterationists</h3>
+                    <p class="management-item-subtitle">
+                        If you are looking for a new way to promote your business that
+                        won’t cost you more money,
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <img src="/fantastic-spoon/assets/management-BGfZ8MkW.png" alt="management" />
+    </div>
+</section>
+<!-- #endregion Management -->
+      <!-- #region Customer -->
+
+<section class="customer">
+    <div class="container customer-wrap">
+        <div class="customer-main-text">
+            <p class="customer-subtitle">Easier decision making for</p>
+            <h2 class="customer-title">Customer Support</h2>
+            <p class="customer-title-descr">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+            </p>
+            <ul class="customer-list">
+                <li class="customer-list-item">
+                    <p class="customer-item-descr">
+                        Never worry about overpaying for your energy again.
+                    </p>
+                </li>
+                <li class="customer-list-item">
+                    <p class="customer-item-descr">
+                        We will only switch you to energy companies that we trust and
+                        will treat you right
+                    </p>
+                </li>
+                <li class="customer-list-item">
+                    <p class="customer-item-descr">
+                        We track the markets daily and know where the savings are.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <img src="/fantastic-spoon/assets/support-GnR5-IM_.png" alt="support" width="540" />
+    </div>
+</section>
+<!-- #endregion Customer-->
+      <!-- #region Collaborative -->
+<section class="collaborative">
+    <div class="container collaborative-wrap">
+        <div class="collaborative-main-text">
+            <p class="collaborative-subtitle">Optimisation for</p>
+            <h2 class="collaborative-title">Collaborative</h2>
+            <p class="collaborative-title-descr">
+                Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when it
+                comes to their behavior.
+            </p>
+            <ul class="collaborative-list">
+                <li class="collaborative-list-item">
+                    <h3 class="collaborative-item-title">Accessory makers</h3>
+                    <p class="collaborative-item-descr">
+                        While most people enjoy casino gambling, sports betting,
+                        lottery and bingo playing for the fun
+                    </p>
+                </li>
+                <li class="collaborative-list-item">
+                    <h3 class="collaborative-item-title">Alterationists</h3>
+                    <p class="collaborative-item-descr">
+                        If you are looking for a new way to promote your business that
+                        won’t cost you more money,
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <img src="/fantastic-spoon/assets/collaboration-BR0_MYz-.png" alt="Collaborative" />
+    </div>
+</section>
+<!-- #endregion Collaborative-->
+      <!-- #region Quick & Easy Process -->
+<section class="process">
+    <div class="container">
+        <h2 class="process-title">Quick & Easy Process</h2>
+        <p class="process-title-descr">
+            Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?
+        </p>
+        <ul class="process-list">
+            <li class="process-list-item">
+                <img src="/fantastic-spoon/assets/care-Ceehk9cp.png" alt="care" width="98" class="process-img" />
+                <p class="process-item-descr">I can take care of your pitch</p>
+            </li>
+            <li class="process-list-item">
+                <img src="/fantastic-spoon/assets/app-BgiFn15S.png" alt="app" width="98" class="process-img" />
+                <p class="process-item-descr">I can prototype your app</p>
+            </li>
+            <li class="process-list-item">
+                <img src="/fantastic-spoon/assets/pitch-8sWQTHxn.png" alt="pitch" width="98" class="process-img" />
+                <p class="process-item-descr">I can take care of your pitch</p>
+            </li>
+            <li class="process-list-item">
+                <img src="/fantastic-spoon/assets/strategy-BkgYCm1i.png" alt="strategy" width="98" class="process-img" />
+                <p class="process-item-descr">I can help marketing strategy</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- #endregion Quick & Easy Process-->
+      <!-- #region Contents Strategies -->
+<section class="strategy">
+    <div class="container">
+        <h2 class="strategy-title">Contents Strategies</h2>
+        <p class="strategy-title-descr">
+            We focus on ergonomics and meeting you where you work. It's only a
+            keystroke away.
+        </p>
+        <ul class="strategy-list">
+            <li class="strategy-list-item">
+                <a href=""><img src="/fantastic-spoon/assets/hands-DLoj1FqU.jpg" alt="hands" />By Wahid
+                    Ari | 03 March 2019</a>
+                <h3 class="strategy-item-descr">
+                    Increasing Prosperity With Positive Thinking
+                </h3>
+            </li>
+            <li class="strategy-list-item">
+                <a href=""><img src="/fantastic-spoon/assets/peoples-D36wToTN.png" alt="peoples" />By
+                    Wahid Ari | 03 March 2019</a>
+                <h3 class="strategy-item-descr">
+                    Motivation Is The First Step To Success
+                </h3>
+            </li>
+            <li class="strategy-list-item">
+                <a href=""><img src="/fantastic-spoon/assets/building-CZzUUVHa.png" alt="building" />Motivation Is The First Step To
+                    Success</a>
+                <h3 class="strategy-item-descr">
+                    Success Steps For Your Personal Or Business
+                </h3>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- #endregion Contents Strategies -->
+      <!-- #region pricing -->
+<section class="pricing">
+    <div class="container">
+        <h2 class="price-title">Price Table</h2>
+        <p class="price-title-descr">We offer competitive price</p>
+        <ul class="price-list">
+            <li class="price-item">
+                <h3 class="price-item-title">Free</h3>
+                <p class="price-item-title-descr">Brief price description</p>
+
+                <div class="priscing-wrap">
+                    <h4 class="price-number">0</h4>
+                    <div class="price-number-wrap">
+                        <p class="price-valute">$</p>
+                        <p class="price-period">Per / month</p>
+                    </div>
+                </div>
+                <ul class="price-list-points">
+                    <li class="price-points-item">
+                        <h5 class="item-operations">Only 2 Operators</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-notifications">Notifications</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-landing">Landing Pages</h5>
+                    </li>
+                </ul>
+                <button type="button" class="price-btn">Order Now</button>
+            </li>
+            <li class="price-item">
+                <h3 class="price-item-title standart">Standard</h3>
+                <p class="price-item-title-descr standart">
+                    Brief price description
+                </p>
+                <div class="priscing-wrap">
+                    <h4 class="price-number standart">5</h4>
+                    <div class="price-number-wrap">
+                        <p class="price-valute standart">$</p>
+                        <p class="price-period standart">Per / month</p>
+                    </div>
+                </div>
+
+                <ul class="price-list-points">
+                    <li class="price-points-item">
+                        <h5 class="item-operations standart">5+ Operators</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-notifications standart">Notifications</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-landing standart">Landing Pages</h5>
+                    </li>
+                </ul>
+                <button type="button" class="price-btn standart-btn">
+                    Order Now
+                </button>
+            </li>
+            <li class="price-item">
+                <h3 class="price-item-title">Premium</h3>
+                <p class="price-item-title-descr">Brief price description</p>
+                <div class="priscing-wrap">
+                    <h4 class="price-number">10</h4>
+                    <div class="price-number-wrap">
+                        <p class="price-valute">$</p>
+                        <p class="price-period">Per / month</p>
+                    </div>
+                </div>
+                <ul class="price-list-points">
+                    <li class="price-points-item">
+                        <h5 class="item-operations">10+ Operators</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-notifications">Notifications</h5>
+                    </li>
+                    <li class="price-points-item">
+                        <h5 class="item-landing">Landing Pages</h5>
+                    </li>
+                </ul>
+                <button type="button" class="price-btn">Order Now</button>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- #endregion prices -->
 
     </main>
 
